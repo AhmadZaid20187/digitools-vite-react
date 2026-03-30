@@ -1,4 +1,4 @@
-import React from 'react';
+import BannerImage from "../assets/banner.png"
 
 const Banner = () => {
     return (
@@ -6,16 +6,15 @@ const Banner = () => {
             <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
                 {/* Left Content */}
                 <div className="space-y-4">
-                    <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium px-5 py-2 rounded-full">
-                        ✨ Frontier AI Models
+                    <div className="inline-flex items-center gap-2 bg-[#E1E7FF] text-[#4F39F6] text-sm font-medium px-5 py-2 rounded-full">
+                        <div className="inline-grid *:[grid-area:1/1]">
+                            <div className="status status-primary animate-ping"></div>
+                            <div className="status status-primary"></div>
+                        </div> New: AI-Powered Tools Available
                     </div>
 
-                    <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-red-600">
-                        One Subscription.
-                        <br />
-                        <span className="bg-linear-to-r from-red-400 via-orange-400 to-amber-400 bg-clip-text text-transparent">
-                            All the AIs You Need
-                        </span>
+                    <h1 className="text-7xl font-bold">
+                        Supercharge Your <br /> Digital Workflow
                     </h1>
 
                     <p className="text-lg text-zinc-700 max-w-lg">
@@ -23,16 +22,13 @@ const Banner = () => {
                         advanced AI models, unified under a single, powerful subscription.
                     </p>
 
-                    <div className="flex flex-wrap gap-4 pt-4">
-                        <button className="align-middle bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:bg-[#9514FA] transition-all p-3 rounded-full font-semibold text-lg flex items-center gap-2 group text-white">
-                            Explore Products
-                            <span className="group-hover:translate-x-1 transition text-2xl">→</span>
-                        </button>
+                    <div className="flex gap-4">
+                        <button className="btn bg-linear-to-r from-[#4F39F6]   to-[#9514FA] hover:shadow-[#4F39F6] hover:drop-shadow-xl text-white rounded-full">Explore Products</button>
                         <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-[2px] rounded-full">
-                            <span className="flex items-center gap-2 bg-white  px-4 py-2 rounded-full group">
-                                <span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Explore Products</span>
+                            <div className="btn btn-outline rounded-full border-0 bg-white flex items-center gap-2 group">
+                                <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold">Explore Products</span>
                                 <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent group-hover:translate-x-1 transition text-2xl">→</span>
-                            </span>
+                            </div>
                         </button>
 
                     </div>
@@ -43,8 +39,8 @@ const Banner = () => {
                 <div className="relative flex justify-center lg:justify-end">
                     <div className="relative">
                         <img
-                            className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl animate-pulse"
-                            src="../assets/banner.png"
+                            className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl"
+                            src={BannerImage}
                             alt="Tools Banner"
                         />
                     </div>

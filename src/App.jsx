@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      {/* <Banner /> */}
-      <Banner2 />
+      <Banner />
     </>
   )
 }
