@@ -1,4 +1,5 @@
 import BannerImage from "../assets/banner.png"
+import Play from "../assets/play.png"
 
 const Banner = () => {
     return (
@@ -24,10 +25,11 @@ const Banner = () => {
 
                     <div className="flex gap-4">
                         <button className="btn bg-linear-to-r from-[#4F39F6]   to-[#9514FA] hover:shadow-[#4F39F6] hover:drop-shadow-xl text-white rounded-full">Explore Products</button>
-                        <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-[2px] rounded-full">
-                            <div className="btn btn-outline rounded-full border-0 bg-white flex items-center gap-2 group">
-                                <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold">Explore Products</span>
-                                <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent group-hover:translate-x-1 transition text-2xl">→</span>
+                        <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-[2px] rounded-full">
+                            <div className="btn btn-outline rounded-full border-0 bg-white flex items-center gap-2 group items-center">
+                                <img className="group-hover:translate-x-1 transition" src={Play} alt="" />
+                                <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-bold group-hover:translate-x-1 transition">Explore Products</span>
+                                {/* <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent group-hover:translate-x-1 transition text-2xl">→</span> */}
                             </div>
                         </button>
 

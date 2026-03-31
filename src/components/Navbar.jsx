@@ -1,4 +1,4 @@
-
+import ShoppingCart from "../assets/products/shopping-cart.png"
 
 const Navbar = () => {
     return (
@@ -31,6 +31,8 @@ const Navbar = () => {
 
 
                 <div className="navbar-end gap-5">
+                    <img src={ShoppingCart} alt="" />
+                    <p className="font-semibold">Login</p>
                     <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>
             </div>

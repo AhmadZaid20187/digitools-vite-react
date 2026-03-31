@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "AI Writing Pro",
+        "description": "Generate high-quality content in seconds with advanced AI.\nPerfect for bloggers, marketers, and content teams.",
+        "price": 29,
+        "features": [
+            "Unlimited AI generations",
+            "50+ writing templates",
+            "Grammar checker"
+        ],
+        "status": "popular"
+    },
+    {
+        "id": 2,
+        "title": "ChatGenius",
+        "description": "A free AI chatbot powered by the latest language models.\nHandle FAQs, support, and conversations effortlessly.",
+        "price": 0,
+        "features": [
+            "Free forever plan",
+            "Multi-language support",
+            "API access included"
+        ],
+        "status": "new"
+    },
+    {
+        "id": 3,
+        "title": "ImageForge AI",
+        "description": "Create stunning visuals from simple text prompts.\nIdeal for designers, marketers, and social media creators.",
+        "price": 19,
+        "features": [
+            "1000+ image generations/mo",
+            "4K resolution exports",
+            "Commercial usage rights"
+        ],
+        "status": "best seller"
+    },
+    {
+        "id": 4,
+        "title": "CodePilot AI",
+        "description": "AI-powered coding assistant that writes and reviews code.\nSupports 30+ programming languages out of the box.",
+        "price": 39,
+        "features": [
+            "Real-time code suggestions",
+            "Bug detection & fixes",
+            "GitHub integration"
+        ],
+        "status": "popular"
+    },
+    {
+        "id": 5,
+        "title": "VoiceClone Studio",
+        "description": "Clone any voice and generate realistic speech in minutes.\nPerfect for podcasters, educators, and media creators.",
+        "price": 49,
+        "features": [
+            "Ultra-realistic voice cloning",
+            "500+ voice styles",
+            "Bulk audio export"
+        ],
+        "status": "best seller"
+    },
+    {
+        "id": 6,
+        "title": "DataMind AI",
+        "description": "Turn raw data into actionable insights with AI analysis.\nNo data science experience required.",
+        "price": 59,
+        "features": [
+            "Automated data reports",
+            "Natural language queries",
+            "CSV & Excel support"
+        ],
+        "status": "new"
+    },
+    {
+        "id": 7,
+        "title": "SEO Brain",
+        "description": "AI-driven SEO tool that ranks your content on Google.\nResearch keywords, audit pages, and track rankings.",
+        "price": 35,
+        "features": [
+            "Unlimited keyword research",
+            "Competitor analysis",
+            "Auto on-page audit"
+        ],
+        "status": "popular"
+    },
+    {
+        "id": 8,
+        "title": "SummarizeIt",
+        "description": "Instantly summarize documents, PDFs, and web pages.\nSave hours of reading with one-click AI summaries.",
+        "price": 0,
+        "features": [
+            "PDF & URL summarization",
+            "Multi-document support",
+            "Browser extension"
+        ],
+        "status": "new"
+    }
+]

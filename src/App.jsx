@@ -1,8 +1,11 @@
 
 import './App.css'
 import Banner from './components/Banner'
-import Banner2 from './components/Banner2'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
+import Pricing from './components/Pricing'
+import RatingTab from './components/RatingTab'
+import Steps from './components/Steps'
 
 function App() {
 
@@ -10,6 +13,11 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner />
+      <RatingTab />
+
+      <Steps />
+      <Pricing />
+      <Footer />
     </>
   )
 }
