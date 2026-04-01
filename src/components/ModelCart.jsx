@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Check } from "lucide-react";
+import { toast } from "react-toastify";
 
 const getStatusStyle = (status) => {
     switch (status) {
@@ -17,6 +18,7 @@ const ModelCart = ({ model, carts, setCarts }) => {
     const handleBuy = () => {
         setBuyed(true)
         setCarts([...carts, model])
+        toast.success("Item Added to Cart!")
     }
     return (
         <div key={model.id} className="relative shadow-lg rounded-2xl p-6 flex flex-col gap-4 border border-gray-100">
