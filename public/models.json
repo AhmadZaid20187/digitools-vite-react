@@ -9,19 +9,21 @@
             "50+ writing templates",
             "Grammar checker"
         ],
-        "status": "popular"
+        "status": "Popular",
+        "image": "/public/products/design-tool.png"
     },
     {
         "id": 2,
         "title": "ChatGenius",
         "description": "A free AI chatbot powered by the latest language models.\nHandle FAQs, support, and conversations effortlessly.",
-        "price": 0,
+        "price": 78,
         "features": [
             "Free forever plan",
             "Multi-language support",
             "API access included"
         ],
-        "status": "new"
+        "status": "New",
+        "image": "/public/products/operation.png"
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@
             "4K resolution exports",
             "Commercial usage rights"
         ],
-        "status": "best seller"
+        "status": "Best Seller",
+        "image": "/public/products/portfolio.png"
     },
     {
         "id": 4,
@@ -45,7 +48,8 @@
             "Bug detection & fixes",
             "GitHub integration"
         ],
-        "status": "popular"
+        "status": "Popular",
+        "image": "/public/products/writing_2327400 1.png"
     },
     {
         "id": 5,
@@ -57,7 +61,8 @@
             "500+ voice styles",
             "Bulk audio export"
         ],
-        "status": "best seller"
+        "status": "Best Seller",
+        "image": "/public/products/social-media.png"
     },
     {
         "id": 6,
@@ -69,30 +74,7 @@
             "Natural language queries",
             "CSV & Excel support"
         ],
-        "status": "new"
-    },
-    {
-        "id": 7,
-        "title": "SEO Brain",
-        "description": "AI-driven SEO tool that ranks your content on Google.\nResearch keywords, audit pages, and track rankings.",
-        "price": 35,
-        "features": [
-            "Unlimited keyword research",
-            "Competitor analysis",
-            "Auto on-page audit"
-        ],
-        "status": "popular"
-    },
-    {
-        "id": 8,
-        "title": "SummarizeIt",
-        "description": "Instantly summarize documents, PDFs, and web pages.\nSave hours of reading with one-click AI summaries.",
-        "price": 0,
-        "features": [
-            "PDF & URL summarization",
-            "Multi-document support",
-            "Browser extension"
-        ],
-        "status": "new"
+        "status": "New",
+        "image": "/public/products/writing_2327400 1.png"
     }
 ]

@@ -101,13 +101,13 @@ const Footer = () => {
                         <div className="flex gap-4">
 
                             <a href="" className="bg-white rounded-full p-1">
-                                <i class="fa-brands fa-x-twitter"></i>
+                                <i className="fa-brands fa-x-twitter"></i>
                             </a>
                             <a href="" className="bg-white rounded-full p-1">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                             <a href="" className="bg-white rounded-full p-1">
-                                <i class="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram"></i>
                             </a>
                         </div>
 

@@ -1,4 +1,4 @@
-import ShoppingCart from "../assets/products/shopping-cart.png"
+import ShoppingCart from "../assets/shopping-cart.png"
 
 const Navbar = () => {
     return (
