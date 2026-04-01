@@ -20,6 +20,7 @@ function App() {
       <Pricing />
       <Exploring />
       <Footer />
+
     </>
   )
 }
