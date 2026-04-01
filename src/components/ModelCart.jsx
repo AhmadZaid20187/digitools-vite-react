@@ -17,6 +17,13 @@ const ModelCart = ({ model, carts, setCarts }) => {
 
     const handleBuy = () => {
         setBuyed(true)
+
+        const isFound = carts.find(item => item.id === model.id)
+        if (isFound) {
+            toast.error("Item Already Exist!")
+            return
+        }
+
         setCarts([...carts, model])
         toast.success("Item Added to Cart!")
     }

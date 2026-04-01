@@ -7,13 +7,13 @@ const Cart = ({ carts, setCarts }) => {
 
     const paymentHandle = () => {
         setCarts([])
-        toast.success("Item Proceeded!")
+        toast.success("Payment Successfull!")
     }
 
     const delateHandle = (item) => {
         const filteredArray = carts.filter(c => c.id !== item.id)
         setCarts(filteredArray)
-        toast.warning("Item Removed!")
+        toast.error("Item Removed!")
     }
 
 
