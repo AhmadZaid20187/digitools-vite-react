@@ -22,7 +22,7 @@ const modelPromise = getModels()
 function App() {
   const [activeTab, setActiveTab] = useState("products")
   const [carts, setCarts] = useState([])
-  console.log(carts)
+
 
 
 
@@ -43,12 +43,12 @@ function App() {
       {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent">
         <input onClick={() => setActiveTab("products")} type="radio" name="my_tabs_1" className="tab rounded-full w-20" aria-label="Products" defaultChecked />
-        <input onClick={() => setActiveTab("carts")} type="radio" name="my_tabs_1" className="tab rounded-full w-20" aria-label="Carts" />
+        <input onClick={() => setActiveTab("carts")} type="radio" name="my_tabs_1" className="tab rounded-full w-20" aria-label={`Cart(${carts.length})`} />
 
       </div>
 
       {activeTab === "products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
-      {activeTab === "carts" && <Cart carts={carts} />}
+      {activeTab === "carts" && <Cart carts={carts} setCarts={setCarts} />}
 
       <Steps />
       <Pricing />

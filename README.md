@@ -1,16 +1,20 @@
-# React + Vite
+## Project Name: DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Title: An Online AI Subscription Site
+Description: DigiTools is an Ai Subscription App, where user can chese Ai powered Sesvices for certain piriod of time.
 
-Currently, two official plugins are available:
+## Technology Uesd:
+For this project I have Used these Technologies:
+1. React.js
+2. Tailwind CSS, DaisyUI
+3. JavaScript (ES6+)
+4. React-Toastify (NPM Package)
+5. JSON (for product data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 3 Features:
+In my Project, I have added many features. From them 3 of my best features are:
+1. Buy Now: When the user Clicked in "Buy Now" button, the item will transfer and show in the Cart section and the total value will show in the botton "Total" section.
 
-## React Compiler
+2. Remove Option: When user wants to remove some subscription items from carts, the user will have an option to remove the specify item.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Toastify: When the user Attemp to buy or checked out, there will be an modern and smart popup alart to notify the user that: the Process has done.
