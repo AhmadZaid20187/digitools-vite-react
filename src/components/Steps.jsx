@@ -12,7 +12,7 @@ const Steps = () => {
             </div>
 
 
-            <div className="max-w-[80%] mx-auto flex justify-between pt-5">
+            <div className="flex flex-col w-full justify-center md:max-w-[80%] md:mx-auto md:flex md:justify-between pt-5">
 
                 {/* Cart-1 */}
                 <div className="relative h-80 w-80 bg-white shadow-lg rounded-2xl flex items-center justify-center">

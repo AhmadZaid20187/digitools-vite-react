@@ -6,7 +6,7 @@ import { Check } from "lucide-react";
 const Pricing = () => {
 
     return (
-        <div className='max-w-[80%] mx-auto pt-30 pb-30'>
+        <div className='  max-w-[80%] mx-auto pt-30 pb-30'>
             {/* Heading */}
             <div className='text-center space-y-4'>
                 <h1 className='text-5xl font-bold'>Simple, Transparent Pricing</h1>
@@ -14,7 +14,7 @@ const Pricing = () => {
             </div>
 
             {/* Price Cart */}
-            <div className='flex gap-4 justify-center pt-10'>
+            <div className='flex flex-col gap-4 md:justify-center pt-10'>
                 {/* Cart-1 */}
                 <div className='p-6 w-80 h-[448px] bg-[#F9FAFC] shadow-lg rounded-2xl flex flex-col'>
                     <div className=''>

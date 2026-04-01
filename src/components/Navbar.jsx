@@ -3,7 +3,7 @@ import ShoppingCart from "../assets/shopping-cart.png"
 const Navbar = () => {
     return (
         <div className="shadow-sm">
-            <div className="navbar max-w-[80%] m-auto ">
+            <div className="navbar flex justify-between md:max-w-[80%] md:m-auto ">
                 <div className="navbar-start">
                     <div className="font-bold text-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                         DigiTools
